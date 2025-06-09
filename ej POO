@@ -3,6 +3,10 @@ public class Main {
         Estudiante estudiante = new Estudiante("Juan", "Pérez", "12345678", 30, "Calle Falsa 123", "1234-5678", "E123", "Ingeniería", 8.5);
         estudiante.mostrarInformacion();
         estudiante.estudiar();
+
+ Profesor profesor = new Profesor("Laura", "Gómez", "98765432", 45, "Av. Siempre Viva 742", "5678-1234",
+                "Informática", 95000.0, 20);
+        profesor.mostrarInformacion();
     }
 }
 
